@@ -1,0 +1,8 @@
+.env
+*.exe
+*.pyc
+*.pyo
+env/
+env*
+
+

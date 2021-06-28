@@ -33,7 +33,6 @@ if __name__ == "__main__":
 
     log_reader = ProfilLoggerReader(handler=json_handler)
     
-    
     print(log_reader.find_by_text("info message", 
                                   end_date = datetime(2021, 6, 28, 18, 30)))
         
